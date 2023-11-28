@@ -20,3 +20,4 @@ spin_me () {
 for i in {1..100}; do
 	spin_me
 done
+#tput civis > cnorm (hidind/unhiding terminal cursor)
