@@ -17,6 +17,10 @@ echo -ne ${alphabet[$(get_random_index)]}
 echo -ne ${alphabet[$(get_random_index)]}
 echo -ne ${alphabet[$(get_random_index)]}
 echo
+
+read typed_text
+
+echo $typed_text
 # echo $arr_length
 # echo ${alphabet[*]}
 
