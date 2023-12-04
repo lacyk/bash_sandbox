@@ -38,22 +38,14 @@ read -r typed_text  # Use -r to preserve backslashes
 uno_trimmed="${uno%" "}"
 typed_text_trimmed="${typed_text%" "}"
 
+
+[ "$typed_text_trimmed" == "$uno_trimmed" ] && echo "You got it !" || echo "Try again !"
+
 # Compare the trimmed strings
-if [ "$typed_text_trimmed" == "$uno_trimmed" ]; then
-    echo "You got it!"
-else
-    echo "Try again!"
-fi
-
-
-
-# read typed_text
-
-# if [ "$typed_text" == "$uno" ] 
-# then
-# 	echo "You got it!"
+# if [ "$typed_text_trimmed" == "$uno_trimmed" ]; then
+#     echo "You got it!"
 # else
-# 	echo "Try again !"
+#     echo "Try again!"
 # fi
 
 
