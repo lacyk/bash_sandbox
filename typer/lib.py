@@ -1,4 +1,9 @@
 #!/usr/bin/python3
 
 
-print("A Few Words !!")
+def add(a,b):
+	return a+b
+
+print(add(3,4))
+
+
