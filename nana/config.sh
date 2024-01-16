@@ -3,6 +3,8 @@
 
 echo "Setup and configure server"
 
+
+
 file_name=config.yaml
 
 if [ -d "config" ]
